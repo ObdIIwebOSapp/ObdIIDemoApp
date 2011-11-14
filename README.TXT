@@ -1,0 +1,1 @@
+This source code demonstrates how to use Bluetooth to connect to a Bluetooth-enabled OBDII automobile engine diagnostic tool. It is written for the HP webOS mobile platform and thus expects the Enyo JavaScript framework to already exist on device.

@@ -1,0 +1,57 @@
+﻿
+#appMain {
+	background-image: url(../images/background.png);
+}
+
+
+.speedometer-background {
+	position: relative;
+	-webkit-transform:translateZ(1px);
+	width:410px;
+	height:380px;
+	background-image: url('../images/car-speedometer.png');
+}
+
+.speedometer-needle {
+	position: relative;
+	left:-231px;
+	top:68px;
+	height:154px;
+	width:50px;
+	background-image: url('../images/webos-car-rev2-needleBLACK.png');
+	-webkit-transform-origin-y: 136px; /* this is the pixel to be rotated in the y axis */
+	-webkit-transform-origin-x: 25px;
+}
+
+.tach-background {
+	position: relative;
+	-webkit-transform:translateZ(1px);
+	width:410px;
+	height:380px;
+	background-image: url('../images/car-tachometer.png');
+}
+.tach-needle {
+	position: relative;
+	left:-233px;
+	top:68px;
+	height:154px;
+	width:50px;
+	background-image: url('../images/webos-car-rev2-needleBLACK.png');
+	-webkit-transform-origin-y: 136px; /* this is the pixel to be rotated in the y axis */
+	-webkit-transform-origin-x: 25px;
+}
+
+.help-container {
+  width: 50%;
+}
+.help-body-title {
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.help-body-text {
+  color: #444;
+  font-size: 16px;
+  margin: 0 0 15px 0;
+}
